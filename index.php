@@ -86,6 +86,7 @@ if($fp) {
     <?php foreach($res_array as $value): ?>  <!--foreach文で投稿件数分を表示する-->
     <?php echo $value["title"]; ?>  <!--タイトルの出力-->
     <p><?php echo $value["article"]; ?></p> <!--記事内容の出力-->
+    <a href="http://localhost/comment.php">記事全文・コメントを読む</a>
   <hr>
     <?php endforeach; ?>  
 </body>
